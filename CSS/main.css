@@ -3,26 +3,15 @@
     margin: 0;
     padding: 0;     
 } 
- 
-body { 
-    overflow: hidden;
-}
-
 /* ######################### Start animationPageLogo Page ######################### */
 /* ===== Start animationPageLogo ===== */
 .animationPageLogo {
     position: absolute;
     width: 100%;    height: 100%;
-    /* top: 0;    left: 0; */
-    /* z-index: 99999; */
-    /* background: linear-gradient(157deg, rgb(59, 150, 51) 10%, rgb(238, 234, 229) 65%); */
 }
 
 .animationPageLogo .logoSplitedImages {
-    /* width: 400px;
-    height: 400px; */
     padding: 100px 220px 150px;
-    /* border: 1px solid red; */
 }
 
 .animationPageLogo .logoSplitedImages img:nth-child(1) {
@@ -255,16 +244,12 @@ body {
     .animationPageLogo .skipBtn:hover {
         padding: 10px 80px;
     }
-
-    /* .animationPageLogo .brandsIcons {
-        background: green;
-    } */
 }
 
 /* ################ Extra small devices (portrait phones, less than 576px) ################ */
 @media (max-width: 575.98px) { 
     .animationPageLogo .logoSplitedImages {
-        padding: 50px 220px 80px;
+        padding: 50px 100px 80px;
     }
     
     .animationPageLogo .logoSplitedImages img:nth-child(1) {
