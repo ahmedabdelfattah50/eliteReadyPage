@@ -243,6 +243,7 @@ body {
     }
 
     .animationPageLogo .brandsIcons .imageDiv img {
+        height: 100px;
         margin: 10px 0;
     }
 
@@ -254,16 +255,14 @@ body {
     .animationPageLogo .skipBtn:hover {
         padding: 10px 80px;
     }
-    .animationPageLogo .brandsIcons {
-        background:red;
-    }
+
+    /* .animationPageLogo .brandsIcons {
+        background: green;
+    } */
 }
 
 /* ################ Extra small devices (portrait phones, less than 576px) ################ */
 @media (max-width: 575.98px) { 
-
-
-
     .animationPageLogo .logoSplitedImages {
         padding: 50px 220px 80px;
     }
@@ -275,11 +274,11 @@ body {
     
     @keyframes eliteImgAnimate {
         0% {
-            -webkit-transform: translate(-30px , -30px);
-                -moz-transform: translate(-30px , -30px);
-                    -o-transform: translate(-30px , -30px);
-                        -ms-transform: translate(-30px , -30px);
-                            transform: translate(-30px , -30px);
+            -webkit-transform: translate(-10px , -30px);
+                -moz-transform: translate(-10px , -30px);
+                    -o-transform: translate(-10px , -30px);
+                        -ms-transform: translate(-10px , -30px);
+                            transform: translate(-10px , -30px);
         }
     }
     
@@ -291,11 +290,11 @@ body {
     
     @keyframes fancyFoodImgAnimate {
         0% {
-            -webkit-transform: translate(-50px , 0px);
-                -moz-transform: translate(-50px , 0px);
-                    -o-transform: translate(-50px , 0px);
-                        -ms-transform: translate(-50px , 0px);
-                            transform: translate(-50px , 0px);
+            -webkit-transform: translate(-20px , 0px);
+                -moz-transform: translate(-20px , 0px);
+                    -o-transform: translate(-20px , 0px);
+                        -ms-transform: translate(-20px , 0px);
+                            transform: translate(-20px , 0px);
         }    
     }
     
@@ -307,11 +306,11 @@ body {
     
     @keyframes fancyLeafsImgAnimate {
         0% {
-            -webkit-transform: translate(15px , 0px);
-                -moz-transform: translate(15px , 0px);
-                    -o-transform: translate(15px , 0px);
-                        -ms-transform: translate(15px , 0px);
-                            transform: translate(15px , 0px);
+            -webkit-transform: translate(10px , 0px);
+                -moz-transform: translate(10px , 0px);
+                    -o-transform: translate(10px , 0px);
+                        -ms-transform: translate(10px , 0px);
+                            transform: translate(10px , 0px);
         }
     }
     
@@ -339,21 +338,17 @@ body {
     
     @keyframes fancyDotImgAnimate {
         0% {
-            -webkit-transform: translate(0px , -60px);
-                -moz-transform: translate(0px , -60px);
-                    -o-transform: translate(0px , -60px);
-                        -ms-transform: translate(0px , -60px);
-                            transform: translate(0px , -60px);
+            -webkit-transform: translate(0px , -40px);
+                -moz-transform: translate(0px , -40px);
+                    -o-transform: translate(0px , -40px);
+                        -ms-transform: translate(0px , -40px);
+                            transform: translate(0px , -40px);
         }
     }
 
     .animationPageLogo .brandsIcons .imageDiv img {
-        margin: 10px 5px;
-        height: 100px;
-    }
-
-    .animationPageLogo .brandsIcons {
-        background:none;
+        margin: 10px 0px;
+        height: 80px;
     }
 
     .animationPageLogo .skipBtn {
