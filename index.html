@@ -44,7 +44,7 @@
                     <img src="images/breads.png" alt="">
                 </div>
             </div>
-            <a class="skipBtn wow fadeInUp" data-wow-delay="1.8s" href="home.html">Skip</a>
+            <a class="skipBtn wow fadeInUp" id="skipBtn" data-wow-delay="1.8s" href="home.html">Skip</a>
         </div> 
         <!-- ===== End animationPageLogo ===== -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -60,7 +60,15 @@
                 
                 setInterval(function(){
                     window.location.replace("home.html");
-                }, 5500);  // --------->>>> this is the seconds to wait to go to home page (1000) means 1 second
+                }, 8000);  // --------->>>> this is the seconds to wait to go to home page (1000) means 1 second
+            
+            
+                // this function use the skip button to go to home page without any return the index page
+                $('#skipBtn').on('click',function(e){
+                    e.preventDefault();
+                    window.location.replace("home.html");
+                });
+
             });
         </script>
     </body>
